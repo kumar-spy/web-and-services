@@ -2,6 +2,6 @@ import subprocess
 try:
     var=subprocess.check_call(['ping','www.google.com'],shell=True)
 except subprocess.CalledProcessError:
-    print ("internet is off")
+    print ("internet is off..")
 else:
-    print("internet is on")
+    print("internet is on..")
